@@ -1,88 +1,55 @@
 <!doctype html>
+<!--Alan designed and coded this, sorry it's bad. As always, Joel helped!-->
 <html>
 <head>
-	<!--alanduda.com made this site and he's sorry that the code sucks.-->
 <meta charset="UTF-8">
-<title>Phoenix Workers Alliance</title>
+<title>Arizona for Bernie 2020 // A coalition working to elect Bernie Sanders for President</title>
 	<style>
 	
-    html {
-  scroll-behavior: smooth;
-}
+        html {scroll-behavior: smooth;}
         
-        .backgroundcolor{background:#080F0F;}
-
-
-.page{background:#080F0F; z-index:0;}
-.page1{background:#FFA686; z-index:0;}
-
-.content{text-align: left; width:75%; margin-left:10%; margin-top:100px; animation: fadeIn 8s ease forwards; padding-top:100px; padding-bottom:100px; z-index:0;}
-.text{font-family: bureau-grot-wide, sans-serif; font-weight: 400; font-style: normal; font-size:18px; line-height:1.6em; color:#eaeaea; z-index:0;}
-.text a{color:#FFA686;}
-.tag{font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; color:#eaeaea; font-size: 15px; line-height:1em; padding-bottom:25px; z-index:0;}
-
-.tag a{color:#eaeaea; text-decoration:none;}
-.tag a:hover{-webkit-text-stroke: 1px #080F0F; -webkit-text-fill-color: #FFA686; text-decoration: line-through;}
+		.column{width:100%; margin:0 auto; display:block; height:1000px; animation: fadeIn 5s ease forwards;}
         
-.big-text{font-size:75px; animation: fadeIn 8s ease forwards; font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; line-height:.9em;padding-bottom:20px; -webkit-text-stroke: 1px #eaeaea; -webkit-text-fill-color: #080F0F; z-index:0;}
-		.big-text a {color:#eaeaea; text-decoration:none;}
-		.big-text a:hover{color:#FFA686;}
+        .links a {font-family: jubilat, serif; font-weight: 700; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: left; font-size:14px; text-decoration:none;}
         
-        .text1{font-family: bureau-grot-wide, sans-serif; font-weight: 400; font-style: normal; font-size:18px; line-height:1.6em; color:#080F0F; z-index:0;}
-.text1 a{color:#eaeaea;}
-.tag1{font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; color:#080F0F; font-size: 15px; line-height:1em; padding-bottom:25px; z-index:0;}
+        .column a:hover  {color:#dddddd; text-decoration: underline; }
+		
+		h1 {font-family: jubilat, serif; font-weight: 700; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: left; font-size:45px; line-height:1em; margin-left:25%; margin-right:12%;}
+		
+		p, ul {font-family: jubilat, serif; font-weight: 400; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: left; font-size:18px; line-height:1.5em; margin-left:25%; margin-right:12%;}
         
-.big-text1{font-size:75px; animation: fadeIn 8s ease forwards; font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; line-height:.9em;padding-bottom:20px; -webkit-text-stroke: 1px #080F0F; -webkit-text-fill-color: #FFA686; z-index:0;}
-		.big-text a {color:#eaeaea; text-decoration:none;}
-		.big-text a:hover{color:#080F0F;}
+        .small a {font-family: jubilat, serif; font-weight: 400; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: left; font-size:18px; line-height:1.5em; margin-left:25%; margin-right:12%;}
         
-        .menu {position:fixed; top:5%;left:5%; z-index:999;}
+	.contentlightbg {width:100%; margin:0 auto; display: block; background:#eeeeee;}
         
-        .menu img:hover{transform:rotate(360deg); transform-style:flat; transition:9s; filter: invert(56%) sepia(42%) saturate(5953%) hue-rotate(296deg) brightness(90%) contrast(126%);}
+        .content1{width:100%; margin:0 auto; display: block; background:#3C96D3;}
         
-        @media screen and (max-width: 650px) {
-  .
-            tag a {font-size: 10px;}
-
-            .menu img {display:none;}
+        .content2{width:100%; margin:0 auto; display: block; background:#233065;}
+        
+        .content3{width:100%; margin:0 auto; display: block; background:#aaaaaa;}
+        
             
-            .big-text{font-size:50px;}
-            
-            .big-text1{font-size:50px;}
-            
-            .two-up .button {padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px; background-color:#000; font-size:10px;}
-            
-}
+        .content3 a {margin:0 auto; display:inline; text-align: left; font-size:18px; line-height:1.5em; padding:5px;}
         
-        .two-up{display:flex; justify-content: space-between; }
+        .content3 a:first-of-type{margin-left:25%;}
+                
+        .content4{width:100%; margin:0 auto; display: block; background:#3C96D3; }
         
-        .two-up .button {background-color:#FFA686; color:#080f0f; padding-top:20px; padding-bottom:20px; padding-left:30px; padding-right:30px; border-radius:13px; margin-top:25px; font-family: bureau-grot-wide, sans-serif; font-weight: 900; font-style: normal; font-size:12px; line-height:1.6em; text-decoration: none;}
-        
-        .two-up .button:hover {background-color:#eaeaea;}
-            
-        .two-up li {padding-bottom:5px; line-height:1em;}    
-        
-        .left {width:39%; color:#eaeaea; border: 1px solid #eaeaea; padding:35px; border-radius:25px;}
+        .disclaimer {border:1px; border-color: #ffffff; border-style:solid; width:70%; padding:5px; font-family: jubilat, serif; font-weight: 400; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: center; font-size:17px; line-height:1em;}
 
-        .left img {width:100%;}
+        .disclaimer a {font-style: normal; color:#ffffff; font-size:17px;!important}
         
-        .right {width:99%; border: 1px solid #eaeaea; padding:35px; border-radius: 25px;}
-        
-        ul li {list-style: square;}
+        .social {width:90%; padding:5px; font-family: jubilat, serif; font-weight: 400; font-style: normal; color:#ffffff; margin:0 auto; display:block; text-align: center; font-size:16px; line-height:1em;}
 
-        .right img {width:100%;}
+        .social a {font-style: normal; color:#ffffff; font-size:16px;!important}
         
-        h2 {text-transform: uppercase;}
-        h4 {text-transform: uppercase;}
-        
-        #can-form-area-phoenix-workers-alliance-newsletter-sign-up {width:99%; border: 1px solid #080f0f; padding:35px; border-radius: 25px;}
-        
-     #form_col1 {list-style: none;}
-        #d_sharing {list-style:none;}
-        
-    
+        .photofull {all:initial; width:100%; height:250px;}
 
-@keyframes fadeIn {
+        .photofull img {all:initial; width:120%; margin-left:-15%; margin-bottom:-5px; }
+        
+
+		
+        @keyframes fadeIn {
  0% {
    opacity: 0;
  }
@@ -92,94 +59,244 @@
  }
 
 		}
-		
-		@media only screen and (max-width: 500px){
-			.names {font-size:20px;}
-			.links {font-size:20px;}
-			
-		}
+        ==$0
         
-        ::selection {
-  background: #FFA686; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #FFA686; /* Gecko Browsers */
-}
-		
 	</style>
-	<link rel="stylesheet" href="https://use.typekit.net/bbz6ayv.css">
-    <link rel="stylesheet" href="https://use.typekit.net/fvf2sbi.css">
-    <script src='https://actionnetwork.org/widgets/v3/form/phoenix-workers-alliance-newsletter-sign-up?format=js&source=widget'></script>
-    <link href='https://actionnetwork.org/css/style-embed.css' rel='stylesheet' type='text/css' />
-<script src="https://kit.fontawesome.com/6796fc4404.js" crossorigin="anonymous"></script>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.typekit.net/dto7hny.css">
+<script src="https://kit.fontawesome.com/e4d0c130e7.js"></script>
 
-
+<script src='https://actionnetwork.org/widgets/v3/form/support-arizona-for-bernie-2020?format=js&source=widget'></script>
+    <link rel="stylesheet" href="https://actionnetwork.org/css/style-embed-whitelabel-v3.css">
+    
 </head>
 
-<body class="backgroundcolor">
-	
-	<div class="page" id="about">
-        
-        <div class="menu"><div class="tag"><img src="PWA_logo_white_1200.png" style="width:100px; vertical-align:middle; padding-right:50px;"> <a href="#about">ABOUT US</a> | <a href="#unions">WHY LABOR?</a> | <a href="#work">OUR WORK</a> | <a href="#join">JOIN US</a></div></div>
-        
-	<div class="content" style="margin-top:-50px;">
-		<img src="PWA_logo_white_1200.png" style=" position: fixed; top:-12%; right:0; z-index:-5; width:50%; overflow-x: hidden; opacity:.05;">
-        
-       
-        
-        <div class="big-text" style="margin-top:150px;">ABOUT US</div>	
-        <div class="tag">AN ALLY TO LABOR</div>
-        <div class="text">The Phoenix Workers Alliance aims to advance a working-class political agenda. We support universal reforms in healthcare, education, and housing, and the empowerment of working people through growing unionization and higher wages.<br><br>
+<body>
+	<div class="column">
+        <p style="margin:0; display:block; position:fixed; width:15%; padding:20px; padding-right:5px;">
+            <img src="az-bernie-button-logo-transparent.gif" style="width:100%; padding:20px; margin-left:-20px;"><br>
+<div class="links" style="margin:0; display:block; position:fixed; width:15%; padding:20px; padding-right:5px; margin-top:20%;">        
+<a href="#berniewants" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">Bernie Wants to...</a><br>
+        <a href="#how" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">How's He Going to Pay for It?</a><br>
+        <a href="#who" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">Who Are We?</a><br>
+        <a href="#meet" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">Videos</a><br>
+        <a href="#join" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">What Can I Do?</a><br>
+        <a href="#contact" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#ffffff; color:#3C96D3;">Resources & Contact Info</a><br>
+        <a href="https://bit.ly/azbernie2020" style="border-style:solid; border-width: 1px; border-color:white; padding:5px; background-color:#233065; color:#ffffff;">Donate</a>
 
-We seek above all to be an ally to organized labor, which means supporting strikes, organizing drives, union campaigns, and labor leaders in their bid for political office. Our members are trained and committed canvassers and phonebankers, and we have a skilled communications team aiming to build a wide reach in the Valley. 
- </div>
-		</div>
-	</div>
-    
-
-    <div class="page1" id="unions">
-        	<div class="content" style="margin-top:-50px;">
-        <div class="big-text1">WHY LABOR?</div>	
-        <div class="tag1">STRONG UNIONS, LESS INEQUALITY</div>
-        <div class="text1">In post-WWII America, thanks to the fruits of a militant labor movement that won new social programs and important concessions from the bosses, productivity gains were generally tied to rising household incomes and wages. This was true roughly until the 70s: the more productive America was, the more prosperity working families enjoyed. But slowly these two things have come apart: American productivity in 2010 was about twice what it was in 1980, but household income and wages had stayed the same.<br><br>
-            Why did this happen? In short, the strength of organized labor went in decline. Between 1947 and 1979, there were an average of 303 “major” strikes (involving 1,000 or more workers) every year. That number began to plummet, along with the number of union members, exactly at the same time that productivity became decoupled from income/wages. Since 2010, the average number of major strikes per year has been 14, and union density has dropped below 12%. The data is clear: strong unions, less inequality.
- </div>
-		</div>
-    </div>
-    
-    	<div class="page" id="work">
-	<div class="content" style="margin-top:-50px;">
-                
-        <div class="big-text" style="margin-top:50px;">OUR WORK</div>	
-        <div class="tag">BOOTS ON THE GROUND</div>
-       <div class="two-up">
-           <!--<div class="left"><img src="carlos-canvass.jpg"><br><br><br><div class="tag">CARLOS FOR CITY COUNCIL</div><div class="text" style="margin-top:-25px;"><ul><li>Organizing</li><li>Canvassing</li><li>Phonebanking</li></ul></div><br><a href="#" class="button">READ MORE</a></div>-->
-            
-           <div class="right"><img src="azbernie-buttons.gif"><br><br><br><div class="tag">ARIZONA FOR BERNIE SANDERS 2020</div><div class="text" style="margin-top:-25px;"><ul><li>Organizing</li><li>Canvassing</li><li>Phonebanking & Textbanking</li><li>Events</li><li>Branding</li><li>Literature Development</li><li>Videography & Photography</li><li>Email Outreach</li><li>Website</li></ul></div><br><a href="bernie.html" class="button">SEE SOME OF THE WORK</a></div>
         </div>
+        
+<div class="content4">
+	<br><br><br><h1>A New Stage</h1><br><br>
+<p>Arizona for Bernie Sanders is a coalition of progressive groups in the Valley, the principal stakeholders of which are the Phoenix Democratic Socialists of America (DSA) and the Progressive Democrats of America (PDA). Both organizations have been running independent expenditures to support Bernie’s candidacy, meaning that we have been working independently of the official Bernie Sanders campaign. For ten months now, we have been tirelessly organizing for Bernie’s candidacy, and we’ve decided now to dissolve the coalition, in anticipation of the official Bernie campaign setting up shop in Arizona. We are immensely proud of the independent organizing work we’ve been able to do with our own resources, but we feel now that the time has come for the individuals involved in Arizona for Bernie to volunteer directly for the campaign.
+	<br><br>The Arizona for Bernie coalition is done, but the work to win Arizona for Bernie Sanders is just beginning! Thanks to all our volunteers organizers who have made our work possible, and thanks in advance to everyone for keeping the fight going.
+		</p><br><br><br><br></div> 
+   <div class="contentlightbg" id="berniewants">
+        <br><br><br>
+		<h1 style="color:#233065;">Bernie wants to...</h1>
+		<br><br>
+        <p style="color:#4d4e4f;">Make public universities, colleges, and trade schools tuition-free and end government profiteering off student loans by cutting interest rates to give millions relief from inescapable debt.</p>
+        <br>
+        <p style="color:#4d4e4f;">Rapidly decarbonize through a Green New Deal, with a unionized job guarantee that ensures everyone who wants one can get a job helping transition to the clean economy we need for a habitable planet.</p>
+        <br>
+        <p style="color:#4d4e4f;">Reform our criminal justice system by banning for-profit prisons, demilitarizing the police, re-enfranchising those who have paid their debt to society, legalizing marijuana, and putting a stop to the failed War on Drugs.</p>
+        <br>
+        <p style="color:#4d4e4f;">Fix our broken healthcare system with Medicare for All: a single health insurance system that provides comprehensive coverage for all U.S. residents with no fees at the point of service. No premiums, no deductibles, no copays, and you get to see the doctor of your choice.</p>
+        <br>
+        <p style="color:#4d4e4f;">Establish an immigration policy that is fair and humane, one that stops the criminalization of communities of color, keeps families together, and creates a path to citizenship for undocumented immigrants.</p>
+        <br>
+        <p style="color:#4d4e4f;">Expand affordable housing by growing the National Affordable Housing Trust Fund, reinvigorating federal housing programs, raising the minimum wage to $15/hr, defending fair housing, promoting home ownership, and giving relief to underwater homeowners.</p>
+        <br><br><br><br><br><br>
+    </div>
+        
+        <div class="photofull"><img src="bernie-canvass-buttons.jpg"></div>
+        
+        <div class="content2" id="how">
+        <br><br><br><br>
+		<h1>How does he propose to pay for these policies?</h1>
+		<br><br>
+        <p>By making the super rich, Wall Street, and large corporations pay their fair share.<br><br>
+Decades of tax cuts for the billionaire class have made it seem impossible to pay for the transformations we need to renew American society. But it doesn’t have to be this way—not if we have the political will to restore progressive taxation.<br><br>
+By making the wealthy pay their fair share, we can guarantee healthcare to every person in the country. We can make college free for all and relieve crippling student debt. We can have clean water and air, better food, and a habitable planet. And we can all enjoy the dignity of working a well-paid, union supported job.        
+        <br><br><br><br><br><br></p>
+            
+            <div class="photofull"><img src="bernie-button.gif"></div>
+            
+                    
+            <div class="content3" id="who">
+            <br><br><br><br>
+                <h1 style="color:#333333;">Who are we?</h1>
+                <br><br>
+                <p style="color:#333333;">Arizona for Bernie Sanders is a coalition of progressive groups working to elect Bernie Sanders for President of the United States in 2020, and to elect similar progressives at all levels of government.</p>
+                <br><br>
+                <a href="https://www.dsaphoenix.org/"><img src="phxdsa.png" style="width:15%;"></a><a href="https://pdamerica.org"><img src="pdaarizona.png" style="width:15%;"></a><a href="https://ourrevolution.com/groups/our-revolution-phoenix/"><img src="ourrevolution.png" style="width:15%;"></a><a href="https://actionnetwork.org/groups/phoenix-workers-alliance"><img src="phxworkersalliance.png" style="width:15%;"></a>
+                
+                <br><br><br>                <br><br><br>
+
+                
+                <!--<div class="small">
+                    
+                    <a href="https://www.dsaphoenix.org/"><img src="phxdsa.png" style="margin:0 auto; position:relative; width:22%; padding:10px; vertical-align: middle;"></a><a href="https://www.dsaphoenix.org/" style="margin:0 auto; position:relative; width:15%; font-size:15px; padding-right:20px;">Phoenix DSA</a>
+                    
+                    <br>
+                    <a href="https://pdamerica.org"><img src="pdaarizona.png" style="margin:0 auto; position:relative; width:22%; padding:10px; vertical-align: middle;"></a><a href="https://pdamerica.org" style="margin:0 auto; position:relative; width:15%; font-size:15px; padding-right:20px;">Progressive Democrats of America, AZ</a>
+                    
+                    <br>
+                    <a href="https://ourrevolution.com/groups/our-revolution-phoenix/"><img src="ourrevolution.png" style="margin:0 auto; position:relative; width:22%; padding:10px; vertical-align: middle;"></a><a href="https://ourrevolution.com/groups/our-revolution-phoenix/" style="margin:0 auto; position:relative; width:15%; font-size:15px; padding-right:20px;">Our Revolution, Phoenix</a>
+                    
+                    <br>
+                    <a href="https://actionnetwork.org/groups/phoenix-workers-alliance"><img src="phxworkersalliance.png" style="margin:0 auto; position:relative; width:22%; padding:10px; vertical-align:middle;"></a><a href="https://actionnetwork.org/groups/phoenix-workers-alliance" style="margin:0 auto; position:relative; width:15%; font-size:15px; padding-right:20px; vertical-align: middle;">Phoenix Workers Alliance</a>
+
+                    
+                    <br><br><br><br></div>-->
+                
+                
+            </div>
+            
+                <div class="photofull"><img src="political-revolution.jpg"></div>
+            
+            <div class="content4" id="meet">
+           <br><br><br><br>
+                <h1>Videos</h1>
+		         <br><br>
+
+                <p><b>Meet Us.</b><br>
+ 			
+			Meet Juan Mendez.
+			  <iframe src="https://player.vimeo.com/video/366654945?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+
+			
+			Meet Rebecca Garelli.
+                    <iframe src="https://player.vimeo.com/video/360131151?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+              
+			Meet Becca S.
+                    <iframe src="https://player.vimeo.com/video/361725019?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+			Meet Ahmad M.
+                    <iframe src="https://player.vimeo.com/video/370713696?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+
+			Meet Angel Atoigue.
+		<iframe src="https://player.vimeo.com/video/376549582?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+
+                <br><br><br>
+			<b>YDSA Arizona for Bernie Town Hall, 9/9/19</b><br>
+			Tanzil Chowdhury
+		<iframe src="https://player.vimeo.com/video/367657132?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+
+<br><br><br>
+                <b>Arizona for Bernie Town Hall, 5/28/19</b><br>
+                    Compilation Video
+                    <iframe src="https://player.vimeo.com/video/334182158?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                    
+                     Senator Juan Mendez
+                    <iframe src="https://player.vimeo.com/video/333385063?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                     Carlos Garcia, City Council
+                    <iframe src="https://player.vimeo.com/video/334037905?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                     Rebecca Garelli, Educator, AEU, #RedForEd
+                    <iframe src="https://player.vimeo.com/video/333627208?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                    State Rep Amish Shah, MD
+                    <iframe src="https://player.vimeo.com/video/333667139?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                    Tanzil Chowdhury, YDSA ASU
+                    <iframe src="https://player.vimeo.com/video/333903330?color=85cafd" width="110%" height="400px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
+                    
+                   
+                
+                
             
 
-		</div>
-	</div>
-    
-        <div class="page1" id="join">
-        	<div class="content" style="margin-top:-50px;">
-        <div class="big-text1">JOIN US</div>	
-        <div class="tag1">STRENGTH IN NUMBERS</div>
-        <div class="text1"><div id='can-form-area-phoenix-workers-alliance-newsletter-sign-up' style='width: 100%;'><!-- this div is the target for our HTML insertion --></div>
- </div>
-		</div>
-    </div>
-    
-      	<div class="page" id="work">
-	<div class="content" style="margin-top:-50px;">
-        <div class="tag" style="font-size:18px;"><a href="https://www.facebook.com/PhxWorkers/"><i class="fab fa-facebook"></i> /PhxWorkers</a></div><div class="tag" style="font-size:18px;"><a href="https://twitter.com/phxworkers"><i class="fab fa-twitter-square"></i> @PHXworkers
-
-            </a></div></div>
+                
+                <br><br><br></p>
+            
             </div>
+          
+              <div class="photofull"><img src="signup-clipboard.jpg"></div>
+            
+            <div class="content2" id="join">
+           <br><br><br><br>
+		    <h1>What Can I Do?</h1><br><br>
+		    <p style="margin:0 auto; text-align: left; margin-left:25%; margin-right:12%;">
+		    <b>Attend a Canvass:</b><br>The best thing you can do to help elect Bernie Sanders is to have high-quality, face-to-face conversations with your neighbors in the Valley about Bernie’s transformative political platform, and for that, there’s nothing better than canvassing! Check our <a href="https://www.facebook.com/ArizonaforBernieSanders/events/" style="color:#ffffff">Facebook page</a> for information about upcoming canvasses. And if you want to hold your own door-to-door or street canvass, check out the resources below and contact <a href="mailto:azbernie2020@gmail.com" style="color:#ffffff">azbernie2020@gmail.com</a> for help setting it up.
+<br><br>
+			    <b>Phonebank:</b><br>The second best thing you can do is to phonebank. We organize in-person phonebanks, and you can find information about these on our Facebook page. But you can also phonebank from the comfort of your own home. Just email Arizona for Bernie at <a href="mailto:azbernie2020@gmail.com" style="color:#ffffff">azbernie2020@gmail.com</a>, and we’ll set you up.
+<br><br>
+Mass outreach tactics like canvassing and phonebanking are the most important things we can be doing right now. But if you’d like to get plugged in to the work of the Arizona for Bernie coalition in other ways, just let us know, and we can talk it through: <a href="mailto:azbernie2020@gmail.com" style="color:#ffffff">azbernie2020@gmail.com</a>. 
+<br><br><br>
+		    <!--<h1>Join us.</h1>
+                <br><br>
+<p style="margin:0 auto; text-align: left; margin-left:25%; margin-right:12%;">Join the mailing list to stay in the loop.</p>
+                <br><br>
+		    <p>
+		    
+			<div id='can-form-area-support-arizona-for-bernie-2020' style='width: 70%; margin-left:25%; font-family: jubilat, serif; font-weight: 400; font-style: normal; color:#3C96D3; text-align: left; font-size:18px; line-height:1.5em; margin-right:12%;'></div>
+                    
+                <br><br><br><br><br><br></p>-->
+            
+            </div>
+            
+                      <div class="photofull"><img src="azbernie-button.jpg"></div>
+            
+                        <div class="content4" id="contact">
+           <br><br><br><br> 
+                            
+				<h1>Resources/Contact</h1><br><br>
+                            <p style="margin:0 auto; text-align: left; margin-left:25%; margin-right:12%;">Here are some of the materials that Arizona for Bernie uses. Feel free to print and use yourself. Send us an email at <a href="mailto:azbernie2020@gmail.com">azbernie2020@gmail.com</a> if you have any questions about anything.</p>
+                            
+                            <br><br>
+                           <p style="margin:0 auto; text-align: left; margin-left:25%; margin-right:12%;">How To's</p> 
+                            <h1 style="margin:0 auto; text-align: left; margin-left:25%; font-size:25px; margin-right:12%;">
+				   <a href="https://docs.google.com/document/d/1swt-PjUm2HoiBWoOWpFciwFCA9Nwn-bp2tK2wDEwPm4/edit?usp=sharing"> Running an Arizona for Bernie Door-to-Door Canvass</a>
+				    <br>
+				    <a href="https://docs.google.com/document/d/1CAUt_eRQy3M420z6JSHZxbpgZ9qHvd72tmynRhh-B5M/edit?usp=sharing">Running an Arizona for Bernie Street Canvass</a>
+				    <br>
+				<a href="https://docs.google.com/document/d/1pw_tPk2zcLhkzmAJcdYXyEDEgIZR1ouYhAVNJXOj_38/edit?usp=sharing">Arizona for Bernie Phonebanking</a>
+                            </h1>
+			<br><br>
+			
+			<p style="margin:0 auto; text-align: left; margin-left:25%; margin-right:12%;">Materials</p>
+		<h1 style="margin:0 auto; text-align: left; margin-left:25%; font-size:25px; margin-right:12%;">
+
+			<a href="https://docs.google.com/document/d/1x_GSNyvTNGFQ2oVq3W6EWekcmm7q36CPTFmooyJFqks/edit?usp=sharing">Arizona for Bernie Pledge Sheet</a>
+				<br>
+<a href="https://drive.google.com/file/d/0B_xVXvON2fbcLWtNMWdwM2RzS2wxREd1MUdRbHNsMGxqZkZz/view?usp=sharing">Arizona for Bernie Trifold</a> (Packaged <a href="https://drive.google.com/open?id=1DhCvSQQayZOw1ZV6HXjHSSH2GdeqbP3x">.indd files</a>)
+				<br>
+<a href="https://drive.google.com/open?id=12GE4Ez2ieTBbMjUOKSWG3APw11bPelzv">Arizona for Bernie Buttons/Stickers/Logos</a>
+				<br>
+<a href="https://docs.google.com/document/d/11Z5XT1zRXKaHT8RmhLe6NLZGE7_DCCCUPTZIxsZKCWg/edit?usp=sharing">Bernie + Medicare for All Door-to-Door Rap</a>
+				<br>
+<a href="https://docs.google.com/document/d/1GL6cNYSFWhnvpEtCd2P7vh9YZ4EWYfG92tfGeEgOuhw/edit?usp=sharing">Bernie + Medicare for All Street Canvassing Rap</a>
+				<br>
+<a href="https://docs.google.com/document/d/1wjYTE7N_eHexXhyWxsvzlLDy0meu5UNcjIRex4JDBfg/edit?usp=sharing">Bernie + Medicare for All FAQ</a>
+				<br>
+<a href="https://docs.google.com/document/d/1u-N0TxcAj8TZyRIT_HgU2fKYKYR1hw0BqjTLoHbOA4E/edit?usp=sharing">Bernie + Green New Deal Door-to-Door Rap</a>
+				<br>
+<a href="https://docs.google.com/document/d/1YEp7zlOX4vEllkI-ZFcsJGjzPMFsaYBqAPPEstbF4Bw/edit?usp=sharing">Bernie + Green New Deal FAQ</a>
+				<br>
+<a href="https://drive.google.com/drive/folders/1wIda4T6bKblKBg0XZVS7JzBtrWzuH_Ak?usp=sharing">Bernie + Green New Deal Leave-Behind Lit</a>
+				<br>
+			<a href="https://drive.google.com/drive/folders/1S-PKWUDg4qRYV6Kch-mXRyuBzQmGKifn?usp=sharing">Bernie + Medicare for All Leave-Behind Lit</a>
+				<br>
+<!--<a href="https://drive.google.com/drive/folders/1TLMeJ0B56ThtHWhdDinurLcg5ImxZvvO?usp=sharing">The Differences Between Bernie & Warren Half Sheet</a>-->
+				<br>
+
+                            
+<br><br><br><br>  <br><br>                          
+                            <div class="social">
+                                <a href="https://facebook.com/arizonaforberniesanders"><i class="fab fa-facebook-square"></i> /ArizonaforBernieSanders</a> &nbsp; &nbsp; &nbsp;<a href="https://twitter.com/azbernie2020"><i class="fab fa-twitter-square"></i> @azbernie2020</a> &nbsp; &nbsp; &nbsp;<a href="https://instagram.com/arizonaforbernie"><i class="fab fa-instagram"></i> @arizonaforbernie</a> &nbsp; &nbsp; &nbsp; <a href="https://vimeo.com/az4bernie"><i class="fab fa-vimeo-square"></i> /az4bernie</a></div>
+                            <br><br>
+                            <div class="disclaimer">Paid for by Phoenix DSA (<a href="https://dsaphoenix.org">dsaphoenix.org</a>) and not authorized by any candidate or candidate's committee.
+</div>
+          <br><br><br>      
+            </div>
+            
+            
     </div>
+  
 	
+    
 </body>
 </html>
